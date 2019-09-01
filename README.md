@@ -36,9 +36,10 @@ K-nearest neighbors algorithm (K-NN) is a non-parametric method used for classif
 ### Script
 
 The .py file includes sys.argv[] and takes four argument inputs including K, N, D and PATH_TO_DATA_DIR (where the image and label files are). The last argument will the folder directory where you will have the dataset files.
-'''
+```
 python3 john.py 5 12 20 /home/john/
-'''
+```
+
 ### Output
 
 The .py file outputs a text file named **finaloutput.txt** after execution. Each line of the output contains a predicted label and a ground truth label, separated by a single space.
