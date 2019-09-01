@@ -4,7 +4,7 @@ Image classification using PCA and K-NN on MNIST Dataset
 
 ## Overview
 
-**Dataset : MNIST**
+**Dataset : MNIST :**
 The MNIST dataset contain gray-scale handwritten digits (28 × 28 each) with 10 classes
 (i.e. 0, 1, ..., 9). There are in total 60000 images for training and 10000 images for testing.
 It is a widely-used dataset for bench-marking image classification models.
@@ -25,10 +25,10 @@ It is a widely-used dataset for bench-marking image classification models.
 
 ## Concept
 
-- **PCA**
+- **PCA :**
 Instead of classifying images in the pixel domain, we usually first project them into a feature space since raw input data is often too large, noisy and redundant for analysis. Here is where dimensionality reduction techniques come into play. Dimensionality reduction is the process of reducing the number of dimensions of each data point while preserving as much essential information as possible. PCA is one of the main techniques of dimensionality reduction. It performs a linear mapping of the data to a lower-dimensional space in such a way that the variance of the data in the lower-dimensional representation is maximized.
 
-- **KNN**
+- **KNN :**
 K-nearest neighbors algorithm (K-NN) is a non-parametric method used for classification. A query object is classified by a majority vote of the K closest training examples (i.e. its neighbors) in the feature space.
 
 ## Program Description
@@ -36,9 +36,9 @@ K-nearest neighbors algorithm (K-NN) is a non-parametric method used for classif
 ### Script
 
 The .py file includes sys.argv[] and takes four argument inputs including K, N, D and PATH_TO_DATA_DIR (where the image and label files are). The last argument will the folder directory where you will have the dataset files.
-
-**Eg python3 john.py 5 12 20 /home/john/**
-
-## Output
+'''
+python3 john.py 5 12 20 /home/john/
+'''
+### Output
 
 The .py file outputs a text file named **finaloutput.txt** after execution. Each line of the output contains a predicted label and a ground truth label, separated by a single space.
