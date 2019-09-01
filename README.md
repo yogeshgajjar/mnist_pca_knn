@@ -43,3 +43,9 @@ python3 john.py 5 12 20 /home/john/
 ### Output
 
 The .py file outputs a text file named **finaloutput.txt** after execution. Each line of the output contains a predicted label and a ground truth label, separated by a single space.
+
+## Dataset
+
+The dataset can be downloaded from the link : http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz and http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz
+
+- For more description about extracting images and labels from the downloaded file refer http://yann.lecun.com/exdb/mnist/ 
