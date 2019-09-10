@@ -31,7 +31,7 @@ def knn(train_images, test_images, train_labels, test_labels, K):
      
 
         f = open("finaloutput.txt", 'a+')
-        f.write("%s %s\n" % (int(weight_votes.argmax()), int(test_labels[i][0])))
+        f.write("%s %s\n" % (int(pre_label[0]), int(test_labels[i][0])))
         f.close()
 
 def extract(N, path):  # code reference https://medium.com/@mannasiladittya/converting-mnist-data-in-idx-format-to-python-numpy-array-5cb9126f99f1 
